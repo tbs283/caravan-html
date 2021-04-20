@@ -66,3 +66,32 @@ footer {
   height: 50px;
   background-color: #aaa;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 50px;
+  }
+
+  main {
+    width: 100%;
+    padding: 50px 0;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .main-item {
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+
+  .main-item:last-child {
+    margin: 0 auto;
+  }
+
+  .step-image,
+  .step-image2,
+  .step-image3 {
+    width: 95%;
+    height: 150px;
+  }
+}
